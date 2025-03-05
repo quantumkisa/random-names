@@ -15,7 +15,7 @@ function pickRandomNames() {
 }
 
 // Display the result on the webpage
-document.getElementById("pick-names").addEventListener("click", () => {
+document.getElementById("cute-button").addEventListener("click", () => {
   const [name1, name2] = pickRandomNames();
   document.getElementById("result").textContent = `${name1} and ${name2}`;
 });

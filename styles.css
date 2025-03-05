@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#cute-button {
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+  border: none;
+  border-radius: 25px;
+  color: #e75480;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+#cute-button:hover {
+  background: linear-gradient(45deg, #fad0c4, #ff9a9e);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+#cute-button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#cute-button i {
+  margin-right: 10px;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: pink;
+}

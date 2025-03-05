@@ -1,5 +1,5 @@
 // Hardcoded list of names
-const names = ["Елизавета F.", "Георгий Р.", "Илья К.", "Кирилл К.", "Константин П."];
+const names = ["Елизавета F.", "Георгий Р.", "Илья К.", "Кирилл К."];
 
 // Function to pick two random names
 function pickRandomNames() {
